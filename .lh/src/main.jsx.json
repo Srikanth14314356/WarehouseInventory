@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/main.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1755854424136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1755856151095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from \"react\";\n import ReactDOM from \"react-dom/client\";\n+import App from \"./App\";\n import \"./index.css\";\n-import App from \"./App.jsx\";\n \n ReactDOM.createRoot(document.getElementById(\"root\")).render(\n   <React.StrictMode>\n     <App />\n   </React.StrictMode>\n-);\n+);\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1755854424136,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport ReactDOM from \"react-dom/client\";\nimport \"./index.css\";\nimport App from \"./App.jsx\";\n\nReactDOM.createRoot(document.getElementById(\"root\")).render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n"
+        }
+    ]
+}
